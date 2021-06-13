@@ -4,13 +4,12 @@
     <a href="https://www.npmjs.com/package/ibidb"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/ibidb"><img src="https://img.shields.io/npm/dt/discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
     <a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/workflows/Testing/badge.svg" alt="Build status" /></a>
-    <a href="https://www.patreon.com/ibidi"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
   </p>
 </div>
 
 ## Discord ibidi Moderation Bot
 
-Harikalar ötesi botumun reposuna hoş geldin. [Buraya](https://ibidi.app)tıklayarak web siteme giriş yapabilirsin.
+Harikalar ötesi botumun reposuna hoş geldin. [Buraya](https://ibidi.app) tıklayarak web siteme giriş yapabilirsin.
 Ayrıca buradan da [ibidi Discord](https://discord.gg/devyork) discord sunucuma katılabilirsin.
 
 - Gelişmiş Ekip Sistemi
