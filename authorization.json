@@ -1,0 +1,101 @@
+{ 
+    "GuildData": {
+      "GuildID": "",
+      "Prefixes": ["!", "."],
+      "BotOwners": [""],
+      "TaglıAlım": false,
+      "GChat": "",
+      "Chats": {
+      "GenelChat": "",
+      "KayıtChat": "",
+      "Kurallar": "",
+      "RolAlma": ""},
+      "star": ""
+},
+    "Voice": {
+       "register": "",
+       "public": "",
+       "secret": "",
+       "alone": "",
+       "other": ""
+},
+    "Reacts": {
+       "duztik": "",
+       "iptal": "",
+       "mute": "",
+       "star": "",
+       "star2": ""
+},
+    "Perms": {
+        "Vip": "",
+        "ToplantıKatıldı": "",
+        "MuteAuth": [""],
+        "VMuteAuth": [""],
+        "JailAuth": [""],
+        "RegisterAuth": [""],
+        "YTRoles": [""],
+        "BanAuth": [""],
+        "TransportAuth": [""],
+        "TalentAuth": [""],
+        "Unregister": [""],
+        "Erkek": [""],
+        "Kız": ["",""],
+        "KızErkek": [""],
+        "GenelKullanıcılar": ""
+},
+        "Booster": "",
+        "Tags": {
+        "RealTag": "",
+        "FakeTag": "",
+        "TagRol": ""
+},
+  
+     "CezaRoles": {
+        "MuteRoles": "",
+        "JailRoles": "",
+        "ReklamRoles": ""
+},
+  
+     "Logs": {
+       "CezaPuanLog": "",
+       "MuteLog": "",
+       "BanLog": "",
+       "JailLog": "",
+       "WarningLog": "",
+       "TagLog": "",
+       "yetkiliLog": "",
+       "RolVerLog": "",
+       "KomutLog": "",
+       "AbilityLog": ""
+},
+  
+     "Talent": {
+       "Streamer": "",
+       "StreamerCezalı": "",
+       "Şair": "",
+       "Vokal": "",
+       "YazRessam": "",
+       "Muzisyen": "",
+       "GoLive": "",
+       "VoiceActor": "",
+       "Codelian": "",
+       "Lovers": ""
+},
+  
+     "Ability": {
+        "SorunÇözücüLideri": "",
+        "ChatLideri": "",
+        "PubLideri": "",
+        "TeyitLideri": "",
+        "TagLideri": "",
+        "InviteLideri": "",
+        "StreamerLideri": "",
+        "SorunÇözücü": "",
+        "ChatSorumlusu": "",
+        "PubSorumlusu": "",
+        "TeyitSorumlusu": "",
+        "TagSorumlusu": "",
+        "InviteSorumlusu": "",
+        "StreamerSorumlusu": ""
+}
+}
