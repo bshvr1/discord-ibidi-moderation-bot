@@ -16,7 +16,7 @@ Ayrıca buradan da [ibidi Discord](https://discord.gg/devyork) discord sunucuma 
 
 ## Kurulum
 
-**Öncelikle botu kullanmak için yapmanız gereken tek şey bilgisayarınızda Node.js yüklü olunması gerekiyor. Yükledikten sonra node . veya node ibidi.js komutunu kullanarak botu açabilirsiniz.**
+**Öncelikle botu kullanmak için yapmanız gereken tek şey bilgisayarınızda Node.js yüklü olunması gerekiyor. Yükledikten sonra "node ." veya "node ibidi.js" komutunu kullanarak botu açabilirsiniz.**
 
 Diyelim ki üstteki dediğim şeyi yaptınız, evet ilk adımı tamamladık. Daha sonra yapacağımız tek şey **authorization.json** adlı json dosyamıza girerek oradaki bilgileri eksiksiz bir şekilde doldurmaktır.  
 
