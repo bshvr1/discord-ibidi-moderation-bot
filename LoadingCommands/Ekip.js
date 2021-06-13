@@ -1,11 +1,11 @@
 const { MessageEmbed } = require("discord.js")
 const settings = {
     minStaffRole: "838409811330203660",
-    teams: ["840295327394955264", "840295483997814785", "840295673529499658", "840295806766284891"],
-    "emoji1": "<a:astreal_star1:840201970568790047>",
-    "emoji2": "<a:astreal_star2:840201970874581012>",
-    "emoji3": "<a:astreal_star4:840201971025444884>",
-    "emoji4": "<a:astreal_star3:840201971167264768>"
+    teams: ["EKİP ROLÜ 1", "EKİP ROLÜ 2"],
+    "emoji1": "",
+    "emoji2": "",
+    "emoji3": "",
+    "emoji4": ""
 }
 
 module.exports.operate = async ({client, msg, args, author, auth}) => {
