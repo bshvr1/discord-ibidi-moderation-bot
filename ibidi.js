@@ -135,8 +135,9 @@ client.toDate = date => {
     "Aklıma sevmek geldiğinde, gözlerimin önüne sen geliyorsun. Günün her saati canım sevmek istiyor ve seni düşünüyor kalbim."];
 
 client.on("message", async msg => {
-    let botVoiceChannel = client.channels.cache.get("bot-channel-id");
+  let botVoiceChannel = client.channels.cache.get("bot-channel-id");
   if (botVoiceChannel) botVoiceChannel.join().catch(err => console.error("Bot ses kanalına bağlanamadı!"));
+    
   if (msg.channel.id == auth.GuildData.GChat && !msg.author.bot && auth.GuildData.Prefixes.some(x => !msg.content.startsWith(x))) {
     iltifat++;
     if (iltifat >= 100) {
@@ -149,21 +150,22 @@ client.on("message", async msg => {
 
 const RoleDatabase = require("./Models/Rol.js")
   client.on("guildMemberUpdate", async(oldMember, newMember) =>{
-    let aldiverdi;
-    if(oldMember.roles.cache.size < newMember.roles.cache.size){ aldiverdi = "<:ibi_tik:828716042083500052>" } else { aldiverdi = "<:ibi_carpi:828716070612893747>"}
+   
+    let ibidilog;
+    if(oldMember.roles.cache.size < newMember.roles.cache.size){ ibidilog = "<:ibi_tik:828716042083500052>" } else { ibidilog = "<:ibi_carpi:828716070612893747>"}
     if(oldMember.roles.cache.size !== newMember.roles.cache.size) {
     let rolveren = await oldMember.guild.fetchAuditLogs({ type: 'GUILD_MEMBER_UPDATE' }).then(audit => audit.entries.first());
     let role = oldMember.roles.cache.find(s => !newMember.roles.cache.has(s.id)) || newMember.roles.cache.find(s => !oldMember.roles.cache.has(s.id))
     let ibidi = await RoleDatabase.findOne({ guildID: newMember.guild.id, kullanıcıID: newMember.id }) 
+    
     if(!ibidi){
       let newRoleData = new RoleDatabase({
         guildID: newMember.guild.id,
         kullanıcıID: newMember.id,
-        rolveridb: { staffID: rolveren.executor.id, tarih: Date.now(), rolid: role.id, type: aldiverdi }
+        rolveridb: { staffID: rolveren.executor.id, tarih: Date.now(), rolid: role.id, type: ibidilog }
       }).save(); } else {
-        ibidi.rolveridb.push({ staffID: rolveren.executor.id, tarih: Date.now(), rolid: role.id, type: aldiverdi })
+        ibidi.rolveridb.push({ staffID: rolveren.executor.id, tarih: Date.now(), rolid: role.id, type: ibidilog })
         ibidi.save()
-      }
+    }
   }
-    })
-
+})
