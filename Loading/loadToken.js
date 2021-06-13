@@ -1,0 +1,1 @@
+module.exports = (client, auth) => client.login("bot-token").catch(err => console.log(err.message));
