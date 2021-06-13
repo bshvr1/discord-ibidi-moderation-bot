@@ -84,15 +84,15 @@ class CheckUser {
       if ((auth.Tags.RealTag !== "") && (user.manageable) && (user.displayName.includes(auth.Tags.RealTag))) user.setNickname(Symbol).catch(() => { });
       if ((auth.GuildData.TaglıAlım) === true) {
         if (user.roles.cache.get(auth.Perms.Booster)) {
-        user.roles.cache.filter(x => this.guild.roles.cache.get("839931960776065065").position < x.position).map(x => user.roles.remove(x).catch(() => { }));
+        user.roles.cache.filter(x => this.guild.roles.cache.get("BOTUN ROLÜ").position < x.position).map(x => user.roles.remove(x).catch(() => { }));
         user.roles.remove(auth.Tags.TagRol).catch(() => { });
         } else {
-        user.roles.cache.filter(x => this.guild.roles.cache.get("839931960776065065").position < x.position).map(x => user.roles.remove(x).catch(() => { }));
+        user.roles.cache.filter(x => this.guild.roles.cache.get("BOTUN ROLÜ").position < x.position).map(x => user.roles.remove(x).catch(() => { }));
         if (user.roles.cache.some(x => goside.includes(x.id))) return user.roles.remove(auth.Tags.TagRol).catch(() => { });
         user.roles.set(auth.Perms.Unregister).catch(() => { });
         }
       } else {
-        user.roles.cache.filter(x => this.guild.roles.cache.get("839931960776065065").position < x.position).map(x => user.roles.remove(x).catch(() => { })); 
+        user.roles.cache.filter(x => this.guild.roles.cache.get("BOTUN ROLÜ").position < x.position).map(x => user.roles.remove(x).catch(() => { })); 
         user.roles.remove(auth.Tags.TagRol).catch(() => { });
       }
     });
